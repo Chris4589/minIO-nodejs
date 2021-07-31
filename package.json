@@ -1,0 +1,24 @@
+{
+  "name": "minio-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/apm-rum": "^5.9.1",
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.1",
+    "minio": "^7.0.18",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5",
+    "uuid": "^8.3.2"
+  }
+}
